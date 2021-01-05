@@ -33,11 +33,10 @@ export default class Main extends Component {
   }
 
   render() {
-    console.log(this.state.values);
 
     return (
       <div>
-        <a href="http://localhost:8888/">
+        <a href="https://spotifyapiuse.herokuapp.com/">
           <button> Login With Spotify </button>
         </a>
         <h1 style = {{color:"white" , marginLeft:100, top:150 , position:"absolute" , fontSize:50}}>Album</h1>
