@@ -1,0 +1,52 @@
+.App {
+  background-color: black;
+  width: 1520px;
+}
+.Album {
+  margin-top: 300px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.name {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  font-weight: var(--glue-font-weight-normal);
+  color: #fff;
+  text-transform: none;
+  font-family: spotify-circular, spotify-circular-cyrillic,
+    spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica,
+    arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+.year {
+  margin-top: -8px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  font-weight: var(--glue-font-weight-normal);
+  color: #fff;
+  text-transform: none;
+  font-family: spotify-circular, spotify-circular-cyrillic,
+    spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica,
+    arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+.Album :hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(185, 157, 157, 0.9);
+  z-index: 3;
+}
+.songs {
+  display: flex;
+margin: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.img {
+  background-size: ;
+}
